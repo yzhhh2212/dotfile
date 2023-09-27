@@ -140,3 +140,4 @@ export ALL_PROXY=http://127.0.0.1:7890
 export http_proxy=http://127.0.0.1:7890
 export https_proxy=http://127.0.0.1:7890
 alias keystarApp="cd /home/ye/App/25kg-上位机&& WINEPREFIX=~/.wineprefixes/keystar wine /home/ye/App/25kg-上位机/RobotBase.exe"
+#testing 
