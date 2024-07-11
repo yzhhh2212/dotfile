@@ -1,4 +1,3 @@
-# If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
@@ -132,12 +131,12 @@ _fzf_compgen_dir() {
 }
 #export http_proxy="socks5://127.0.0.1:7890"
 #export https_proxy="socks5://127.0.0.1:7890"
-alias setps="export ALL_PROXY=socks5://127.0.0.1:7890; export http_proxy=socks5://127.0.0.1:7890; export https_proxy=socks5://127.0.0.1:7890; echo 'SET PROXY TO SOCKS5 SUCCESS!!!'"
-alias unsetp="unset ALL_PROXY; unset http_proxy; unset https_proxy; echo 'UNSET PROXY SUCCESS!!!'"
 #alias setph="export ALL_PROXY=http://127.0.0.1:7890; export http_proxy=http://127.0.0.1:7890; export https_proxy=http://127.0.0.1:7890; echo 'SET PROXY TO HTTPS SUCCESS!!!'"
 #export ALL_PROXY=socks5://127.0.0.1:7890
-export ALL_PROXY=http://127.0.0.1:7890
-export http_proxy=http://127.0.0.1:7890
-export https_proxy=http://127.0.0.1:7890
-alias keystarApp="cd /home/ye/App/25kg-上位机&& WINEPREFIX=~/.wineprefixes/keystar wine /home/ye/App/25kg-上位机/RobotBase.exe"
 #testing 
+source /opt/ros/noetic/setup.zsh
+export LD_LIBRARY_PATH=/home/nio/ThirdPartyLib/boost_1.65.1_install/lib:$LD_LIBRARY_PATH
+
+
+
+
