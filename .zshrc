@@ -136,6 +136,8 @@ _fzf_compgen_dir() {
 #testing 
 source /opt/ros/noetic/setup.zsh
 export LD_LIBRARY_PATH=/home/nio/ThirdPartyLib/boost_1.65.1_install/lib:$LD_LIBRARY_PATH
+export PATH="/home/nio/Downloads:$PATH"
+
 
 
 
